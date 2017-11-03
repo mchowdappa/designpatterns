@@ -3,9 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mcp</groupId>
   <artifactId>designpatterns</artifactId>
-  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>designpatterns Maven Webapp</name>
+  <name>designpatterns Maven Simple</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
