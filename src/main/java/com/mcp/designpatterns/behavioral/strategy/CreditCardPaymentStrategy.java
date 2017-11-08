@@ -1,4 +1,4 @@
-package com.mcp.designpatterns.strategy;
+package com.mcp.designpatterns.behavioral.strategy;
 
 public class CreditCardPaymentStrategy implements PaymentStrategy {
 

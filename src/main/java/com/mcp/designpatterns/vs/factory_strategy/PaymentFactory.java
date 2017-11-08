@@ -1,9 +1,9 @@
-package com.mcp.designpatterns.factory;
+package com.mcp.designpatterns.vs.factory_strategy;
 
 public class PaymentFactory {
 	
-	private static String PAY_PAL = "PAY_PAL";
-	private static String CREDIT_CARD = "CREDIT_CARD";
+	private static String PAY_PAL = "PAYPAL";
+	private static String CREDIT_CARD = "CREDITCARD";
 	public PaymentType gePaymentType(String type){
 		PaymentType paymentType = null;
 		if(PAY_PAL.equalsIgnoreCase(type))

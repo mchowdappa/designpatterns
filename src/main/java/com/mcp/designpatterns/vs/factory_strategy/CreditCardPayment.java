@@ -1,4 +1,4 @@
-package com.mcp.designpatterns.factory;
+package com.mcp.designpatterns.vs.factory_strategy;
 
 public class CreditCardPayment implements PaymentType {
 

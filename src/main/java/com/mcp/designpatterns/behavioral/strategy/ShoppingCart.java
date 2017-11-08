@@ -1,4 +1,4 @@
-package com.mcp.designpatterns.strategy;
+package com.mcp.designpatterns.behavioral.strategy;
 
 import java.util.ArrayList;
 import java.util.List;
