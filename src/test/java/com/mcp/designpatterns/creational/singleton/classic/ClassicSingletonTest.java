@@ -1,14 +1,14 @@
-package com.mcp.designpatterns.creational.singleton;
+package com.mcp.designpatterns.creational.singleton.classic;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 
 import junit.framework.TestCase;
 
-public class SingletonTest extends TestCase {
+public class ClassicSingletonTest extends TestCase {
    private ClassicSingleton sone = null, stwo = null;
-   private static Logger logger = Logger.getLogger(SingletonTest.class);
-   public SingletonTest(String name) {
+   private static Logger logger = Logger.getLogger(ClassicSingletonTest.class);
+   public ClassicSingletonTest(String name) {
       super(name);
    }
    public void setUp() {

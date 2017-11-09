@@ -1,4 +1,4 @@
-package com.mcp.designpatterns.creational.singleton;
+package com.mcp.designpatterns.creational.singleton.classic;
 
 /**
  * 
