@@ -6,6 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>designpatterns Maven Simple</name>
 	<url>http://maven.apache.org</url>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
@@ -21,7 +22,6 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-
 	</dependencies>
 	<build>
 		<finalName>designpatterns</finalName>
