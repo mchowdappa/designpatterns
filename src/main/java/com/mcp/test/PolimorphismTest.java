@@ -1,4 +1,4 @@
-package com.test;
+package com.mcp.test;
 
 public class PolimorphismTest {
 

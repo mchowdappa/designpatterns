@@ -1,4 +1,4 @@
-package com.test.poly.shape;
+package com.mcp.test.poly.shape;
 
 public class ShapeTest {
 

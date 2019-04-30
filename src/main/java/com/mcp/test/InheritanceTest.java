@@ -1,3 +1,5 @@
+package com.mcp.test;
+
 
 
 public class InheritanceTest {

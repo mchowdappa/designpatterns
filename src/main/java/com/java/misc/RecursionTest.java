@@ -1,19 +1,31 @@
+/**
+ * 
+ */
 package com.java.misc;
 
+/**
+ * @author chowdappa.m
+ *
+ */
 public class RecursionTest {
-
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		RecursionTest test = new RecursionTest();
-		System.out.println(test.recur(10));
-		
+
+		int x = 10;
+		recursiveMethod(x);
+
 	}
 
-	private int recur(int count) {
-		if (count > 0) {
-			System.out.println(count);
-			return count + recur(--count);
+	private static int recursiveMethod(int x) {
+		if (x <= 0) {
+			return 0;
 		}
-		return count;
+		// x--;
+		System.out.println(x);
+		recursiveMethod(--x);
+		return 0;
 	}
 
 }
