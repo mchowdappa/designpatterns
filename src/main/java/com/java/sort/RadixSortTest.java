@@ -12,21 +12,7 @@ public class RadixSortTest {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		
-		int x = 10;
-		recursiveMethod(x);
-		
-	}
+	public static void main(String[] args) {}
 
-	private static int recursiveMethod(int x) {
-		if(x<=0){
-			return 25;
-		}
-		//x--;
-		System.out.println(x);
-		recursiveMethod(--x);
-		return 0;
-	}
 
 }

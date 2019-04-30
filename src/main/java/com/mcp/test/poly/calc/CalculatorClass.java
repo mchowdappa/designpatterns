@@ -1,4 +1,4 @@
-package com.test.poly.calc;
+package com.mcp.test.poly.calc;
 public class CalculatorClass{
 	
 	public static void main(String [] args){

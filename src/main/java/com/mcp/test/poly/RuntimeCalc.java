@@ -1,4 +1,4 @@
-package com.test.poly;
+package com.mcp.test.poly;
 
 public class RuntimeCalc {
 	

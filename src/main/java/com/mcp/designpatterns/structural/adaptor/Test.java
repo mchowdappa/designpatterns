@@ -1,4 +1,4 @@
-package com.java.designpattern.adaptor;
+package com.mcp.designpatterns.structural.adaptor;
 /**
  * 
  */

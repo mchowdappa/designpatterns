@@ -1,4 +1,4 @@
-package com.java.designpattern.bridge;
+package com.mcp.designpatterns.structural.bridge;
 
 /**
  * @author chowdappa.m

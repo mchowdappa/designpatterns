@@ -1,4 +1,4 @@
-package com.test.basic;
+package com.mcp.test.basic;
 import java.util.*;
 public class AddTest {
 
