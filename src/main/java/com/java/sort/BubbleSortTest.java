@@ -10,7 +10,7 @@ package com.java.sort;
 public class BubbleSortTest {
 
 	// logic to sort the elements
-    public static void bubble_srt(int array[]) {
+    public static void bubble_srt(int array[])throws Exception {
         int n = array.length;
         int k;
         for (int m = n; m >= 0; m--) {
@@ -19,8 +19,9 @@ public class BubbleSortTest {
                 if (array[i] > array[k]) {
                     swapNumbers(i, k, array);
                 }
+                printNumbers(array);
+                Thread.sleep(5000);
             }
-            printNumbers(array);
         }
     }
   
@@ -40,7 +41,7 @@ public class BubbleSortTest {
         System.out.println("\n");
     }
   
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
         bubble_srt(input);
   

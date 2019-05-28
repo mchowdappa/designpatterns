@@ -6,7 +6,7 @@ import org.junit.Assert;
 import junit.framework.TestCase;
 
 public class SingletonTest extends TestCase {
-	private static Logger logger = Logger.getLogger(SingletonTest.class);
+	private static Logger logger = Logger.getLogger(SingletonPatternTest.class);
 	private static ThreadSafeSingleton singleton = null;
 
 	public SingletonTest(String name) {
@@ -32,7 +32,7 @@ public class SingletonTest extends TestCase {
 			ThreadSafeSingleton s = ThreadSafeSingleton.getInstance();
 			// Protect singleton member variable from
 			// multithreaded access.
-			synchronized (SingletonTest.class) {
+			synchronized (SingletonPatternTest.class) {
 				if (singleton == null) // If local reference is null...
 					singleton = s; // ...set it to the singleton
 			}
